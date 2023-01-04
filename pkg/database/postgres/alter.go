@@ -111,7 +111,6 @@ func AlterColumnStatements(tableName string, primaryKeys []string, desiredColumn
 					}
 				}
 			}
-
 			if len(changes) == 0 {
 				// no changes
 				return []string{}, nil
